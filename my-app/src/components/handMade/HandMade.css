@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+.HomeHeader{
+    background-image: url("../../Photos/HandmadePhoto.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+
+}
+.HomeHeaderdiv{
+    text-align: center;
+}
+.HomeHeaderdiv h1{
+    padding-top: 3.3rem;
+    font-size: 6.4rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 0;
+}
+.HomeHeaderdiv p{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 0;
+}
+.HomeHeaderdiv button{
+    margin-top: 2.5rem;
+    cursor: pointer;
+    width: 160px;
+    height: 57px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #7F5E88;
+}
+@media screen and (max-width: 1050px) {
+    .HomeHeaderdiv h1{
+        font-size: 4rem;
+    }
+    .HomeHeaderdiv p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .HomeHeaderdiv h1{
+        line-height: 4rem;
+    }
+
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+.bestsellers{
+   text-align: center;
+    padding: 2rem;
+    font-family: "DM Sans", sans-serif;
+}
+.bestsellers h1{
+    font-weight: 500;
+    font-size: 3.3rem;
+    color: rgb(26, 26, 26);
+    padding-bottom: 1rem;
+}
+.box{
+    box-sizing: border-box;
+}
+.bestsellers .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.box-container .productName h3{
+    color: rgb(26, 26, 26);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height:0;
+
+}
+.bestsellers a img{
+    position: relative;
+}
+.bestsellers a img:hover{
+    transition: 0.5s ease;
+   filter: brightness(0.8);
+}
+.bestsellers #Discount{
+    text-decoration: line-through;
+    opacity: 0.4;
+    font-size: 1.1rem;
+}
+.bestsellers .productPrice p{
+    font-size: 1.1rem;
+
+}
+.saletag{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -8px;
+}
+.saletag p{
+    background-color: rgb(111, 23, 135);
+    color: white;
+    padding: .6rem;
+}
+.bestsellers #soldout{
+   color:#8F8F8F ; 
+}
